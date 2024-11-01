@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы поиска в 10 поисковиках</title>
+    <style>
+
+        .search-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+
+        .search-container h1 {
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .search-container form {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+
+        .search-container input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            flex-grow: 1;
+        }
+
+        .search-container button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+<div class="search-container">
+    <h1>GOOGLE</h1>
+<form action="https://www.google.com/search">
+  <input type="text" name="q" placeholder="Введите запрос">
+  <button type="submit">Поиск</button>
+</form>
+
+    <h1>BING</h1>
+<form action="https://www.bing.com/search">
+    <input type="text" name="q" placeholder="Введите запрос">
+    <button type="submit">Поиск</button>
+</form>
+
+    <h1>YANDEX</h1>
+<form action="https://yandex.ru/search">
+    <input type="text" name="text" placeholder="Введите запрос">
+    <button type="submit">Поиск</button>
+</form>
+
+    <h1>DUCKDUCKGO</h1>
+<form action="https://duckduckgo.com">
+    <input type="text" name="q" placeholder="Введите запрос">
+    <button type="submit">Поиск</button>
+</form>
+
+    <h1>YAHOO</h1>
+<form action="https://search.yahoo.com/search">
+    <input type="text" name="p" placeholder="Введите запрос">
+    <button type="submit">Поиск</button>
+</form>
+
+    <h1>ECOSIA</h1>
+<form action="https://www.ecosia.org/search">
+    <input type="text" name="q" placeholder="Введите запрос">
+    <button type="submit">Поиск</button>
+</form>
+
+    <h1>QWANT</h1>
+<form action="https://www.qwant.com">
+    <input type="text" name="q" placeholder="Введите запрос">
+    <button type="submit">Поиск</button>
+</form>
+
+    <h1>ASK</h1>
+<form action="https://www.ask.com/web">
+    <input type="text" name="q" placeholder="Введите запрос">
+    <button type="submit">Поиск</button>
+</form>
+
+    <h1>AOL</h1>
+<form action="https://search.aol.com/aol/search">
+    <input type="text" name="q" placeholder="Введите запрос">
+    <button type="submit">Поиск</button>
+</form>
+
+    <h1>MOZILLA</h1>
+    <form action="https://www.mozilla.org/en-US/firefox/search">
+        <input type="text" name="q" placeholder="Введите запрос">
+        <button type="submit">Поиск</button>
+    </form>
+</div>
+</body>
+</html>
